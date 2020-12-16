@@ -6,11 +6,13 @@ const estilo = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        
+        backgroundColor: '#a5b1c2'
     },
     logo: {
-        width: 200,
-        height: 200,
+        width: 160,
+        height: 160,
+        alignItems: "center"
+        
     },
     inputs: {
         width: '80%',
@@ -21,16 +23,13 @@ const estilo = StyleSheet.create({
         justifyContent: 'center'
     },
     input: {
-        backgroundColor: 'white',
+        backgroundColor: '#ffffff',
         padding: 10,
         marginBottom: 10,
-        borderRadius: 7,
-        fontWeight: "bold",
-        color: "#000"
-
+        borderRadius: 7
     },
     botaoEntrar: {
-        backgroundColor: '#e3350d',
+        backgroundColor: '#eb2f06',
         padding: 10,
         marginBottom: 10,
         borderRadius: 7, 
@@ -46,20 +45,26 @@ const estilo = StyleSheet.create({
         padding: 10,
         marginBottom: 10,
         borderRadius: 7,
-        color: 'white',
+        color: '#f7941e',
         textAlign: 'center',
         
         alignItems: 'center',
         justifyContent: 'center'
-    },
-        textoCriar: {
+    },textoCriar: {
         fontWeight: 'bold',
-        color: 'white'        
+        color: '#fff'        
     },
+    textoMensagem: {
+        color: '#d63031',
+        padding: 7,
+        fontWeight: 'bold'
+    },
+
+    textolastsoc: {
+    fontWeight: 'bold',
+    color: '#fff'
+}
 
 })
 
 export default estilo;
-
-
-

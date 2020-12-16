@@ -3,23 +3,30 @@ import {StyleSheet} from 'react-native';
 
 const estilo = StyleSheet.create({
     container: {
-        flex: 1,
         alignItems: 'left',
-        justifyContent: 'flex-start',
+        backgroundColor: '#d2dae2',
+        
                
     },
 
     image : {
-        width: 300,
-        height: 300,
-        alignItems: 'flex-start',
-        marginTop: 5
+        width: 150,
+        height: 150,
+        marginTop: 12,
+        fontSize: 20,
+        flexDirection: 'row',
+        margin: 10
+    },
+    texto:{
+        fontSize: 20,
+        flexDirection: 'row',
+        margin: 5
     },
 
     perfil: {
         width: 20,
         height: 20,
-        alignItems: 'flex-start',
+        flexDirection: 'row',
         marginTop: 2
 
     },
@@ -34,10 +41,8 @@ const estilo = StyleSheet.create({
      card : {
         width: 350,
         backgroundColor: 'white',
-    },
-     
-    
-    
+    }
+
 })
 
 export default estilo;
